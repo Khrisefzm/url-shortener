@@ -49,7 +49,7 @@ const UrlShortenerForm = () => {
               {shortUrl}
             </a>
           </p>
-          <QRCodeCanvas value={qrCode} />
+          <QRCodeCanvas className="mx-auto" value={qrCode} />
         </div>
       )}
     </div>
