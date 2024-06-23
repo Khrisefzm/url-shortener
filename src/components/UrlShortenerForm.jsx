@@ -10,9 +10,12 @@ const UrlShortenerForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:5000/api/shorten", {
-        url,
-      });
+      const response = await axios.post(
+        "https://url-shortener-api-xdre.onrender.com",
+        {
+          url,
+        }
+      );
       setShortUrl(response.data.shortUrl);
       setQrCode(response.data.shortUrl);
     } catch (error) {
