@@ -11,7 +11,7 @@ const UrlShortenerForm = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "https://url-shortener-api-xdre.onrender.com",
+        "https://url-shortener-api-xdre.onrender.com/api/shorten",
         {
           url,
         }
