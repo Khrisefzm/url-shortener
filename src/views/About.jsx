@@ -21,6 +21,8 @@ const About = () => {
         <li>MongoDB</li>
         <li>QrCode</li>
       </ul>
+
+      <p className="mt-4">Thanks for saw this project!</p>
     </div>
   );
 };
