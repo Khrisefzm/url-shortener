@@ -64,7 +64,7 @@ const UrlShortenerForm = () => {
         <div className="mt-4 flex flex-col items-center">
           {timeoutMessage && (
             <p className="my-2 text-center">
-              Your request is taking longer than usual...
+              Your request is taking longer than usual, please wait...
             </p>
           )}
           <ClipLoader size={35} color={"#123abc"} loading={loading} />
@@ -87,6 +87,11 @@ const UrlShortenerForm = () => {
           </div>
         ))
       )}
+      <h3 className="mt-4 text-center">To take into consideration:</h3>
+      <p>
+        Remember that we are using Render free, so if it is the first time that
+        you use the app, it can take a while to generate the link and QR code.
+      </p>
     </div>
   );
 };
