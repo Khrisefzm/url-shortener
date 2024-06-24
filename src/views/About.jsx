@@ -11,8 +11,10 @@ const About = () => {
       <h2 className="text-xl font-bold mb-2">Frontend</h2>
       <ul className="mb-4">
         <li>React and Vite</li>
+        <li>Axios</li>
         <li>React Router DOM</li>
         <li>Tailwind</li>
+        <li>Some extra libraries like: QRCode and react spinners</li>
       </ul>
       <h2 className="text-xl font-bold mb-2">Backend</h2>
       <ul>
