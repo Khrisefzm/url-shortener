@@ -87,7 +87,7 @@ const UrlShortenerForm = () => {
           </div>
         ))
       )}
-      <h3 className="mt-4 text-center">To take into consideration:</h3>
+      <h3 className="mt-4">To take into consideration:</h3>
       <p>
         Remember that we are using Render free, so if it is the first time that
         you use the app, it can take a while to generate the link and QR code.
